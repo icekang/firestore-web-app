@@ -25,10 +25,13 @@ These concepts covered the example codes in the preparation activity. I aimed to
 1. Edit the code using only basic JavaScript operations.
     - Instead of using `map`, use `for loop`. 
     - Instead of using `reduced form of object declaration`, use `simple object declaration`.
-    - Instead of letting students implement `await` function, let the student fill a smaller portion of that
-        - From
-        -     const collection = '{???????????}'
-              const items = '{???????????}'
-        - To
-        -     const collection = await item_refs.????
-              const items = collection.map((item) => ({ docId: item.id, ...item.data() }))
+2. Let the student fill a smaller portion of codes. To illustrate,
+    - From
+    -     const collection = '{???????????}'
+          const items = '{???????????}'
+    - To
+    -     const collection = await item_refs.????
+          const items = collection.map((item) => ({ docId: item.id, ...item.data() }))
+3. Brief TAs first😢. I finished my part-time job late a day before class, so I did not brief TAs about what I am going to teach. If I had briefed the TAs first, they would have been able to help students more. I had to go group by group debugging code for the students.
+4. (Assumed all the codes are written in for loop) Change outstanding from `hosting the code to Firebase` to being able to implement `map` or other JavaScript concept introduced in briefing class.
+5. From `4`, handing out the instructions of how to host the project with Firebase Hosting. This is to give students a guide when they do their final projects.
