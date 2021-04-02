@@ -18,10 +18,10 @@ async function showItemsInTable() {
   const items = collection.map((item) => ({ docId: item.id, ...item.data() }))
   items.map((item) => {
       table_body.innerHTML += `
-      <tr id="${t.docId}">
-          <td>${t.name}</td>
-          <td>${t.owner}</td>
-          <td>${t.price}</td>
+      <tr id="${item.docId}">
+          <td>${item.name}</td>
+          <td>${item.owner}</td>
+          <td>${item.price}</td>
           <td><button class="delete-row" onclick="deleteItem('${t.docId}')">ลบ</button></td>
         </tr>
       `
